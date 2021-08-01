@@ -1,0 +1,58 @@
+.Login{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+
+
+.login {
+    width: 90%;
+    max-width: 40rem;
+    margin: 2rem auto;
+    padding: 2rem;
+  }
+  
+  .control {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: stretch; */
+
+  }
+
+  .small > h6{
+      font-weight: lighter;
+      margin-top: -15px;
+      color:rgb(0, 0, 0);
+  }
+  
+  
+  .actions {
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    .control {
+      align-items: center;
+      flex-direction: column;
+    }
+  
+  }
+
+  .actions > Button{
+   color:darkblue;
+   
+  }
+
+  .actions > Button:hover
+  {
+   border: 1px solid #ffffff;
+   background-color:#483D8B;
+   color: white;
+
+   
+  }
+  
+  
